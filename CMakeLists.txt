@@ -10,7 +10,7 @@ set(PostgeSQL_ADDITIONAL_VERSIONS "16")
 
 add_executable(libpqxx_test main.cpp)
 
-add_subdirectory("C:\\projects\\c++\\libpqxx-7.9.2" libpqxx-build) # Укажите путь к libpq++
+add_subdirectory("C:\\projects\\c++\\sql\\nlogy\\libpqxx-7.9.2" libpqxx-build) # Укажите путь к libpq++
 
 target_compile_features(libpqxx_test PRIVATE cxx_std_17) # Включите C++17
 
